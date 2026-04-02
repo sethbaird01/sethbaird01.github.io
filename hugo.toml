@@ -63,7 +63,7 @@ pagination.pagerSize = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "nostyleplease"
+    title = "sbaird.net"
 
     [languages.en.params]
       subtitle = "Portfolio, blog, more"
