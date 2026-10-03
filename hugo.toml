@@ -1,9 +1,10 @@
-baseURL = 'https://sethbaird01.github.io/'
+baseURL = 'https://sbaird.net/'
 locale = 'en-us'
 title = 'sbaird.net'
 theme = 'hugo-xmin'
-ignoreFiles = [ "\\.Rmd$", "\\.Rmarkdown$", "_cache$" ]
+ignoreFiles = [ "_cache$" ]
 footnotereturnlinkcontents = "↩"
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
@@ -28,9 +29,8 @@ weight = 2
   url = "photos"
   weight = 3
 
-
 [params]
-  footer = '&copy; [Seth Baird](https://sbaird.net) {Year} | [Github](https://github.com/sethbaird01) | [LinkedIn](https://www.linkedin.com/in/sethbaird01/)'
+  footer = '&copy; [sjb](https://sbaird.net) {Year} | [Github](https://github.com/sethbaird01) | [LinkedIn](https://www.linkedin.com/in/sethbaird01/)'
 
 [security]
 allowContent = [ ".*" ]
