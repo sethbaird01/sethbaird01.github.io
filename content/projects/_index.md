@@ -84,7 +84,7 @@ Scraped over 200 18650 cells from laptop batteries, tested all of their capaciti
 ### Manual Transmission, Hypoid Differential & Viscous LSD Overhaul
 *06/2025*
 
-Disassembled and rebuilt a manual transmission to see how it worked and fix a $500 car. Vehicle was purchased with the transmission already uninstalled, then was rebuilt over the course of 3 weeks before being reinstalled.
+Disassembled and rebuilt a manual transmission to see how it worked and fix a $500 car. Vehicle was purchased with the transmission already uninstalled, then was rebuilt over the course of 3 months before being reinstalled.
 
 | | | |
 |---|---|---|
