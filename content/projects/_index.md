@@ -1,13 +1,20 @@
 ---
-title: Hardware & Software Engineering Projects/"Portfolio"
+title: Engineering Projects/"Portfolio"
 ---
 
-Software is hard to take pictures of, maybe we should call and talk about what I have to offer
+Portfolio is a fairly corporate term and the captions are straight out of a resume, but the pictures are sloppy and unprofessional; I want to believe that reflects the candor of work I do for my own enjoyment
+
+Also, **Software and system architectures are hard to take pictures of**, but here are some tangible things I've built. To any recruiters: there's more to the story in that regard, let's talk. LinkedIn in footer
+
+
+Some projects are for university, some are for fun, many are both. All firmware and supplementary code for applicable projects was written completely by hand without AI assistance. I believe AI is well-suited and powerful in demanding business/productivity-centric settings where deliverables are everything, but that is not the case in a project fueled by curiosity and *love for the game*.
+
+---
 
 ### Modernized Superheterodyne FM Radio Receiver
 *04/2025*
 
-Engineered embedded C firmware for Arduino Mega digitally tuning a superheterodyne FM receiver via I2C 12-bit DAC, ADC RSSI feedback, and LCD interface with autonomous station acquisition across 88–108 MHz. Characterized VCO behavior using quartic regression over 56 measured data points (R² = 0.9987), enabling accurate digital frequency estimation and a DSP-assisted channel scan algorithm.
+Wrote embedded C firmware for Arduino Mega tuning a superheterodyne FM receiver via I2C 12-bit DAC, ADC RSSI feedback, and LCD interface with autonomous station acquisition across 88-108 MHz. Characterized VCO behavior using quartic regression over 56 measured data points (R² = 0.9987), enabling accurate digital frequency estimation and a DSP-assisted channel scan algorithm.
 
 ![FM Radio PCB](/portfolio-assets/image1.jpeg)
 ![FM Radio Test Setup](/portfolio-assets/image2.jpeg)
@@ -47,6 +54,15 @@ Designed power electronics driver circuitry using MOSFETs and BJTs, regulated by
 
 ---
 
+### Hybrid Powertrain Simulation & Control Module
+*06/2026 - 08/2026*
+
+Drafted a bespoke hybrid architecture and control module integrating an existing ICE architecture with plug-in capable electric drive. Then learned more about MATLAB by onboarding into Simulink (a skill that proved very useful in a future DSP Lab) in order to model hybrid powertrain systems with MathWorks' Simscape HEV reference design.
+
+![Architecture Sketch Front](/portfolio-assets/image38.jpeg)
+
+---
+
 ### Industrial Control Systems & PLC Programming
 *09/2025*
 
@@ -58,7 +74,7 @@ Built industrial control systems hands-on in lab and programmed PLCs using IEC 6
 ---
 
 ### Various Lab Assignments
-*2023–2025*
+*2023-2025*
 
 ATMega328p-based breakout board, temperature monitor and data logger with enclosure designed in Solidworks, PWM generation and parallel LCD test circuit (using registers, no library), audio amplifier perfboard, STM32 I2C implementation, op-amp class D amplifier.
 
@@ -73,7 +89,7 @@ ATMega328p-based breakout board, temperature monitor and data logger with enclos
 ### Li-ion Battery Cell Recycling & Validation
 *10/2025*
 
-Scraped over 200 18650 cells from laptop batteries, tested all of their capacities and verified functionality using a multi-channel cell tester.
+Scrapped over 200 18650 cells from laptop batteries, tested all of their capacities and verified functionality using a multi-channel cell tester.
 
 | | | |
 |---|---|---|
@@ -91,19 +107,3 @@ Disassembled and rebuilt a manual transmission to see how it worked and fix a $5
 | ![Disassembled Transmission](/portfolio-assets/image28.jpeg) | ![Transmission Parts](/portfolio-assets/image29.jpeg) | ![Clutch Assembly](/portfolio-assets/image30.jpeg) |
 | ![Flywheel](/portfolio-assets/image31.jpeg) | ![Ring Gear Diagram](/portfolio-assets/image32.png) | ![Reinstalled](/portfolio-assets/image33.jpeg) |
 
----
-
-## Skills
-
-| Category | Skills |
-|---|---|
-| **Languages** | Python, C, Java, VHDL, TypeScript, Structured Text |
-| **Embedded/Firmware** | Bare-Metal C, FreeRTOS, STM32, Arduino, Raspberry Pi Pico, HAL, Microcontroller Peripherals |
-| **FPGA/Digital Design** | HDL, Quartus, Functional Simulation, Concurrent Logic Design, Digital System Prototyping |
-| **Hardware/Testing** | PCB Design (KiCad), SolidWorks, Oscilloscopes, Logic Analyzers, DAQ, Multimeters, Power Supplies, Electronic Loads, Spectrum Analyzer, BGA Rework, Soldering |
-| **Interfaces/Protocols** | I2C, SPI, UART, BLE, MQTT, CAN, GPIO, PWM, ADC, DAC, PCIe, USB |
-| **Networking/Systems** | Linux Administration, KVM, LXC, Proxmox, ZFS, Root Cause Analysis |
-| **Simulation/Modeling** | Multisim, Simulink, MATLAB, Quartus Simulation |
-| **Development Tools** | Git/GitHub, PlatformIO, STM32Cube, Linux, CI/CD, Automated Testing, Selenium |
-| **Technical Skills** | Technical Documentation, Test Case Development, Data Analysis, Attention to Detail |
-| **Interpersonal Skills** | Problem Solving, Analytical Thinking, Customer Support, Mentoring, Communication, Adaptability, Initiative, Cross-Functional Collaboration |
